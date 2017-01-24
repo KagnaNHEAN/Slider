@@ -1,0 +1,49 @@
+body {
+  background: #ccd9ff;
+}
+/*Pour faire apparaître ou cacher les boutons play etc...*/
+.hide {
+  display: none;
+}
+
+h1 {
+background: -webkit-linear-gradient(left, #dd99ff, #ff3300, #ccd9ff);
+background: -moz-linear-gradient(left, #dd99ff, #ff3300, #ccd9ff);
+color: white;
+text-align: center;
+font-family: 'Hammersmith One', sans-serif;
+font-size: 50px;
+}
+
+ul {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+li {
+  list-style: none;
+}
+
+#toolbarToggle {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+figure {
+  text-align: center;
+}
+
+img{
+  width: 500px;
+  height: 400px;
+}
+
+figcaption {
+  font-family: 'Hammersmith One', sans-serif;
+  color:#ff5c33;
+}
+.fa {
+  color: #ff5c33;
+}
